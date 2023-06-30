@@ -4,7 +4,7 @@ This project automates the process of sending a message to multiple phone number
 
 Installation:
 1. Install Python (version 3.7 or above) from the official website.
-2. Install the appropriate Chrome WebDriver for your version of Chrome from [chromedriver](https://chromedriver.chromium.org/downloads)
+2. Install the appropriate Chrome WebDriver for your version of Chrome from [chromedriver](https://chromedriver.chromium.org/downloads) and save it in the same project file . 
 3. Install the required Python packages by running the following command in your terminal:
    pip install re
    pip install openpyxl
