@@ -17,8 +17,9 @@ def click_element_by_xpath(driver, xpath):
     except Exception as e:
         print("Error clicking element:", str(e))
 
-
-input_message = "Happy Eid Bro"
+#Type the group name and the message here
+group_name = "Family Group"
+input_message = "Happy New Year"
 
 # URL-encode the input string
 encoded_message = urllib.parse.quote(input_message)
@@ -32,7 +33,6 @@ driver.get('https://web.whatsapp.com/')
 input('Press Enter after scanning the QR code and logging in to WhatsApp Web...')
 
 # Locate the target group and click on it
-group_name = 'اتعلم مجانا 60'
 search_box_xpath = "//*[@id='side']/div[1]/div/div/div[2]/div/div[1]"
 search_box = WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.XPATH, search_box_xpath)))
 search_box.send_keys(group_name)
