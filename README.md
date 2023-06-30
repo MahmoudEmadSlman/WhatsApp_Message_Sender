@@ -22,6 +22,8 @@ Usage:
    whatsapp_message_sender.py
 7. Follow the instructions to scan the QR code and log in to WhatsApp Web.
 8. The script will automatically find the target group, extract phone numbers, saves them to an Excel file and send the message.
+9. Follow this stips at frist message you have 20 sec. to do that , Don't miss the opportunity! :"
+     ![steps](https://github.com/MahmoudEmadSlman/WhatsApp_Message_Sender/assets/84009205/25ca9d81-db34-4503-9ba3-09c262e61bfc)
 
 Note: Please use this script responsibly and respect the privacy of others. Make sure you have the necessary permissions before sending messages to anyone.
 
